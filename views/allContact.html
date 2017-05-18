@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Demo</title>
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/1.css">
+    <link rel="stylesheet" href="/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,300italic,100,100italic,400italic,700,700italic,900,900italic" rel="styleshe
+et" type="text/css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container nab">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Logo Here !</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+    <div class="about pageErr">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>All contact</h1>
+                    <div class="ngoisao"><b class="fa fa-star"></b> </div>
+                    <div class="table-responsive">
+
+                        <table class="table table-hover table-responsive tableFix" id="mytable">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>Message</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                
+                                
+                                
+                                
+                                
+                                <tr id="text">   <td>1</td>   <td>yan</td>   <td>yan@123.com</td>   <td>12345678</td>   <td></td></tr><tr id="text">   <td>2</td>   <td>bao</td>   <td>baobao@gmail.com</td>   <td>12345678</td>   <td></td></tr><tr id="text">   <td>3</td>   <td>test</td>   <td>test@gmail.com</td>   <td>123</td>   <td></td></tr><tr id="text">   <td>4</td>   <td>test2</td>   <td>test@gmail.com2</td>   <td>12345678</td>   <td></td></tr><tr id="text">   <td>5</td>   <td>abc</td>   <td>abc@gmail.com</td>   <td>12345678</td>   <td></td></tr><tr id="text">   <td>6</td>   <td>Some one</td>   <td>someOne@gmail.com</td>   <td>12345678</td>   <td></td></tr>
+                                <tr>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                    <div class="deleteUserForm">
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                    <form action="/delete" method="Get" role="form">
+                                        <div class="form-group">
+                                            <label for="">Input name you want delete</label>
+                                            <input type="text" name="deleteUser" class="form-control" id="input" placeholder="Input field">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Delete</button>
+                                    </form>
+                                </div>
+
+                                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                                    <form action="/search" method="Get" role="form">
+                                        <div class="form-group">
+                                            <label for="">Input name you want to Search</label>
+                                            <input type="text" name="searchUser" class="form-control" id="input" placeholder="Input field">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Search</button>
+                                    </form>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover table-responsive tableFix">
+                                            <thead>
+                                                <tr>
+                                                    <th>ID</th>
+                                                    <th>Name</th>
+                                                    <th>Email</th>
+                                                    <th>Phone</th>
+                                                    <th>Message</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="result1">3</td>
+                                                    <td class="result2">test</td>
+                                                    <td class="result3">test@gmail.com</td>
+                                                    <td class="result4">123</td>
+                                                    <td class="result5"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <small>Copyright &#xA9; Demo Website 2016</small>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/1.js"></script>
+    <script src="/js/table.js"></script>
+
+    <!-- thoi gian chuyen dong -->
+    <script src="/js/jquery.easing.min.js"></script>
+</body>
+
+</html>

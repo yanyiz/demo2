@@ -1,0 +1,21 @@
+.navbar{
+  margin-bottom: 50px;
+  border-radius: 0;
+  background-color: #ffffff;
+
+}
+/* Remove the jumbotron's default bottom margin */ 
+
+/* Add a gray background color and some padding to the footer */
+      
+footer{
+  background-color: #f2f2f2;
+        padding: 25px;
+}
+
+#logo{
+  float: left;
+  max-height: 50px;
+  width: auto;
+  margin-right: 10px;
+}

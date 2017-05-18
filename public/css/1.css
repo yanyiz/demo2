@@ -1,0 +1,488 @@
+* {}
+
+.deleteUserForm label {
+    color: white;
+}
+
+.deleteUserForm {
+    margin-top: 50px;
+}
+
+.table-hover>tbody>tr:hover {
+    background-color: #2d3e50;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.btnFix2:hover,
+.btnFix2:active,
+.btnFix2:focus {
+    color: #18BB9C;
+    background: white;
+}
+
+.btnFix2 {
+    margin-right: 10px;
+    border-radius: 5px;
+    color: white;
+    background: #18BB9C;
+    border: none;
+    transition: all .3s ease-in-out;
+}
+
+.btnFix:hover,
+.btnFix:active,
+.btnFix:focus {
+    color: #18BB9C;
+    background: white;
+}
+
+.btnFix {
+    margin-right: 10px;
+    border-radius: 5px;
+    color: white;
+    background: #18BB9C;
+    border: none;
+    /* border: 2px solid #2D3E50; */
+    transition: all .3s ease-in-out;
+}
+
+input[type="button"] {
+    margin-top: 20px;
+    /* margin-bottom: 108px; */
+    /* padding: 10px; */
+    font-size: 14px;
+    background: #18BB9C;
+    border: 2px solid white;
+    color: white;
+    transition: all .3s ease-in-out;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 30px;
+}
+
+input[type="button"] .active {
+    color: red;
+}
+
+input[class="active"] {
+    color: #18BB9C;
+    background: white;
+    font-weight: bold;
+}
+
+input[type="button"]:hover {
+    color: #18BB9C;
+    background: white;
+}
+
+.tableFix th {
+    color: #18BB9C;
+    font-size: 16px;
+}
+
+ul.pagination {
+    box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.48);
+}
+
+.tableFix thead {
+    color: #18BB9C;
+    font-size: larger;
+}
+
+table.table.table-hover.table-responsive.tableFix {
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.43);
+    border: none;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background: #18BB9C;
+    color: white;
+}
+
+.about.pageErr {
+    /* height: 450px; */
+    padding-bottom: 30px;
+}
+
+.col-xs-12.col-sm-12.col-md-4.col-lg-4.cotgiua {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background: #233140;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.nenxanh b.fa.fa-facebook {
+    background: #2C3E50;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px 10px;
+    font-size: 26px;
+    border: 2px solid;
+    transition: all .3s ease-in-out;
+    margin-right: 10px;
+}
+
+.nenxanh b.fa.fa-facebook:hover {
+    background: #FFFFFF;
+    color: #18BC9C;
+}
+
+.nenxanh b.fa.fa-google-plus {
+    background: #2C3E50;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px 10px;
+    font-size: 26px;
+    border: 2px solid;
+    transition: all .3s ease-in-out;
+    margin-right: 10px;
+}
+
+.nenxanh b.fa.fa-google-plus:hover {
+    background: #FFFFFF;
+    color: #18BC9C;
+}
+
+.nenxanh b.fa.fa-twitter {
+    background: #2C3E50;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px 10px;
+    font-size: 26px;
+    border: 2px solid;
+    transition: all .3s ease-in-out;
+    margin-right: 10px;
+}
+
+.nenxanh b.fa.fa-twitter:hover {
+    background: #FFFFFF;
+    color: #18BC9C;
+}
+
+.nenxanh b.fa.fa-linkedin {
+    background: #2C3E50;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px 10px;
+    font-size: 26px;
+    border: 2px solid;
+    transition: all .3s ease-in-out;
+    margin-right: 10px;
+}
+
+.nenxanh b.fa.fa-linkedin:hover {
+    background: #FFFFFF;
+    color: #18BC9C;
+}
+
+.nenxanh b.fa.fa-dribbble {
+    background: #2C3E50;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px 10px;
+    font-size: 26px;
+    border: 2px solid;
+    transition: all .3s ease-in-out;
+    margin-right: 10px;
+}
+
+.nenxanh b.fa.fa-dribbble:hover {
+    background: #FFFFFF;
+    color: #18BC9C;
+}
+
+.nenxanh p {
+    font-size: 20px;
+}
+
+.nenxanh h3 {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    padding-bottom: 42px;
+}
+
+.contact {
+    padding-bottom: 106px;
+}
+
+.contact button.btn.btn-success.btn-lg {
+    background: #18BC9C;
+    font-size: 28px;
+    margin-bottom: 3px;
+    margin-top: 20px;
+}
+
+.contact button.btn.btn-success.btn-lg:hover {
+    background-color: #128f76;
+    border-color: #11866f;
+}
+
+.nenxanh {
+    background: #2C3E50;
+    color: white;
+    padding-top: 73px;
+    padding-bottom: 65px;
+}
+
+.nenxanh a {
+    color: #18BC9C;
+}
+
+.contact hr {
+    border: 1px solid gainsboro;
+}
+
+.contact input.form-control {
+    padding: 32px 5px;
+    font-size: 1.5em;
+    box-shadow: none;
+    padding-left: 0;
+}
+
+.contact textarea.form-control {
+    border: none;
+    resize: none;
+    box-shadow: none;
+    height: 162px;
+    font-size: 1.5em;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding: 32px 5px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.contact input.form-control {
+    border: none;
+    border-top: 1px solid #eee;
+    padding-top: 47px;
+}
+
+.contact .ngoisao {
+    color: black;
+}
+
+.contact h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 108px 0 0 0;
+}
+
+.about a.btn.btn-default {
+    margin-top: 20px;
+    margin-bottom: 108px;
+    padding: 10px;
+    font-size: 16px;
+    background: #18BB9C;
+    border: 2px solid white;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.about a.btn.btn-default:hover {
+    background: white;
+    color: #18BB9C;
+}
+
+.about p {
+    color: white;
+    padding: 10px;
+    line-height: 27px;
+    font-size: 16px;
+}
+
+.about h1 {
+    padding-top: 108px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.about {
+    background: #18BB9C;
+}
+
+.portfolio h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.viewfull b.fa.fa-search-plus {
+    color: white;
+    font-size: 66px;
+    padding-top: 97px;
+}
+
+.viewfull {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(24, 187, 156, 0.41);
+    top: 0px;
+    text-align: center;
+    opacity: 0;
+    transition: all ease 0.9s;
+    cursor: pointer;
+}
+
+.sanpham {
+    position: relative;
+}
+
+.portfolio .ngoisao {
+    color: black;
+}
+
+.portfolio {
+    padding: 80px 0;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+    transform: translateX(-300px);
+}
+
+.portfolio.hienra {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.sanpham img.img-responsive {
+    margin-bottom: 25px;
+}
+
+.xanh p {
+    font-size: 15px;
+    color: white;
+    padding-top: 15px;
+}
+
+b.fa.fa-star {
+    position: relative;
+    top: -21px;
+    background: #18BB9C;
+    width: 46px;
+    font-size: 32px;
+}
+
+.contact b.fa.fa-star {
+    background: white;
+}
+
+.portfolio b.fa.fa-star {
+    background: white;
+}
+
+.b.fa.fa-star {}
+
+.ngoisao {
+    color: white;
+    border-top: 6px solid;
+    margin: auto;
+    width: 24%;
+    margin-top: 35px;
+}
+
+.xanh .text-center {
+    padding: 90px 0;
+}
+
+nav.navbar.navbar-default {
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0px;
+}
+
+nav.navbar.navbar-default.biendoi {
+    height: 70px;
+    padding-top: 10px;
+    z-index: 1;
+}
+
+nav.navbar.navbar-default.biendoi.affix {
+    width: 100%;
+}
+
+img.img-responsive {
+    margin: auto;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: white;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background: #18bb9c;
+}
+
+.navbar-collapse.navbar-ex1-collapse.collapse.in {
+    background: #2D3E50;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #18bb9c;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #18bb9c;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 1s ease-in-out;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sanpham:hover .viewfull {
+    opacity: 1;
+}
+
+.xanh h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.xanh {
+    background: #18bb9c;
+    margin-top: 0px;
+    padding-top: 50px;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav.navbar.navbar-default {
+    height: 109px;
+    padding-top: 30px;
+    background: #2D3E50;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    width: -moz-available;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "demo2",
+  "version": "1.0.1",
+  "description": "Web app demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yan",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdom": "10.1.0",
+    "jsdom-global": "3.0.2"
+  }
+}
